@@ -1,8 +1,8 @@
 const actor = {
-  name: "Abdullah Al Noman",
-  age: 43,
-  phone: "01318-969328",
-  sub: "Math",
+    name: "Abdullah Al Noman",
+    age: 43,
+    phone: "01318-969328",
+    sub: "Math",
 };
 
 const { age, phone, sub, name } = actor;
@@ -27,3 +27,15 @@ console.log(num1 , num2);
 const mainNumber = [12,21,32,7]
 const [q,, x] = mainNumber // when you use (,,) they will skip next value and target next value/ index
 console.log(q , x);
+
+
+// practice object destructing
+const mainObject = {
+    name : 'Maisa Monoara Moule',
+    age : 22,
+    home : 'Barguna',
+    love : 'no-one'
+}
+// destructing start
+const {name : Maisa , age : i} = mainObject
+console.log(Maisa , i);
