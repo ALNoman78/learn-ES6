@@ -38,4 +38,4 @@ const mainObject = {
 }
 // destructing start
 const {name : Maisa , age : i} = mainObject
-console.log(Maisa , i);
+console.log(Mais , i);
